@@ -23,7 +23,7 @@ O ambiente é gerenciando por um único script em Bash, que possui as seguintes 
 
 #### Usando o ambiente:
 1. Clonar o repositório:  
-$ git clone git@github.com:edugdias/passeidireto.git
+$ git clone https://github.com/edugdias/passeidireto.git
 2. Posicionar-se no diretório "exec" no repositório:  
 $ cd passeidireto/exec
 3. Executar o script de gerenciamento:  
