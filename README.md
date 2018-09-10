@@ -49,4 +49,4 @@ $ ./manage_services.sh --stop
 - Removendo os containers:  
 $ ./manage_services.sh --delete-container
 - Removendo as imagens:  
-$ ./manage_services.sh --delete_images
+$ ./manage_services.sh --delete-images
