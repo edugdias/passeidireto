@@ -14,9 +14,9 @@
 #
 # TODO:
 # - incluir opção para criar, remover, iniciar, parar ou testar um serviço específico
+# - incluir suporte para definir os nomes dos servios através de um arquivo de configuração e/ou parâmetro na linha de comando
 # 
 # Autor: Eduardo Dias <eduardodiasbr@gmail.com>
-#
 #
 
 function build_image() {
