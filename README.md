@@ -15,9 +15,9 @@ Esse amabiente não foi testado em Windows
 O ambiente é gerenciando por um único script em Bash, que possui as seguintes funcionalidades:
 - Criar imagens
 - Remover imagens
-- Criar ou iniciar os conteiners dos serviços
-- Parar os conteiners dos serviços
-- Remover os conteiners dos serviços
+- Criar ou iniciar os containers dos serviços
+- Parar os containers dos serviços
+- Remover os containers dos serviços
 - Remover as imagens
 - Testar a aplicação  
 
@@ -46,7 +46,7 @@ $ ./manage_services.sh --run
 $ ./manage_services.sh --test
 - Parando os serviços:  
 $ ./manage_services.sh --stop
-- Removendo os conteiners:  
-$ ./manage_services.sh --delete-conteiner
+- Removendo os containers:  
+$ ./manage_services.sh --delete-container
 - Removendo as imagens:  
 $ ./manage_services.sh --delete_images
