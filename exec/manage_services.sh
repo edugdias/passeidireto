@@ -111,7 +111,7 @@ function run_services() {
 }
 
 function stop_services() {
-  for service in mysql nodejs nginx
+  for service in nginx nodejs mysql
   do
     exists=`docker ps -a | grep $service.server `
     if [ "$exists" == "" ]
