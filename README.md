@@ -32,11 +32,11 @@ A saída apresentará os comando disponíveis para a execução do gerenciamento
 Use:  
 manage_services.sh --help: mostra esse help  
 manage_services.sh --build: gera as imagens dos serviços  
-manage_services.sh --delete-image: remove as imagens e os containers dos serviços  
-manage_services.sh --delete-container: remove as imagens e os containers dos serviços  
+manage_services.sh --delete-image: remove as imagens dos serviços  
+manage_services.sh --delete-container: remove os containers dos serviços  
 manage_services.sh --run: inicia os três serviços  
 manage_services.sh --stop: para os três serviços  
-manage_services.sh --test: para os três serviços  
+manage_services.sh --test: para os três serviços   
 
 - Criando imagens:  
 $ ./manage_services.sh --build
