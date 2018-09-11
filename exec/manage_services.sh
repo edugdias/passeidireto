@@ -207,7 +207,6 @@ function test_services(){
       echo "========================================"
     fi
   fi
-
 }
 
 ACTION=$1
